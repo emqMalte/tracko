@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Tracko
 
-You can use the [editor on GitHub](https://github.com/emqMalte/tracko/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Tracko - the tracking tractor helps you keep track of your time.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Privacy
 
-### Markdown
+The Tracko Browser Extension for Google Chrome allows you to track the time you spent on your Jira Issues.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To do so this extension requires you to authenticate yourself with your Atlassian Cloud Account. During this Process the Extension communcates directly with Atlassian, as well as with a simple Tracko Application hosted on Amazon Web Services (AWS).
+The latter is solely being used for the authentication process and is necessary until Atlassian supports standalone applications. 
+No user identifiable information is being stored during this process for any purpose.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emqMalte/tracko/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Please refer to the [Atlassian Privacy Policy](https://www.atlassian.com/legal/privacy-policy) for more information on how Atlassian handles your data.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Tracko? Please create an issue in the Tracko GitHub Repository
